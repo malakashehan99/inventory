@@ -1,0 +1,222 @@
+#container {
+    margin: 0 auto;
+    width: auto;
+    background: #fff;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+#header {
+    background: #6918a34a;
+    padding: 20px;
+    font-style: normal;
+    text-align: center;
+    color: #0f1028bd;
+    text-shadow: 4px 4px 8px rgba(204, 0, 255, 0.259);
+}
+
+.header-image {
+    animation: rotateImage 10s linear infinite; 
+    transform-origin: center center;
+    width:100px;
+    height: 100px;;
+}
+
+@keyframes rotateImage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+#navigation{
+    float: left;
+    width:100%;
+    background: #6834864b;
+    margin: 0 auto;
+}
+
+#navigation ul {
+    text-align: center; 
+  }
+  
+
+#navigation ul li{
+    display: inline;
+}
+
+#navigation li a 
+{
+    display: block;
+    float: left;
+    padding: 5px 10px;
+    color: #250728d5;
+    text-decoration: none;
+    border-right: 1px solid #ffffff;
+}
+
+#navigation ul li a:hover {
+    background-color: #250728d5; 
+    color: #ffffff; 
+}
+
+.search{
+    width: 330px;
+    float: right;
+    margin: auto;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #390840e7;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #520665;
+    border: 2px solid #520665;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+
+#content-container
+{
+    float: left;
+    width:100%;
+    
+}
+
+
+#content
+{
+    float: left;
+    width: auto;
+    padding: 20px 0;
+    margin: 0 0 0 30px;
+}
+
+
+#form1
+{
+    width:50%;
+    float:center;
+    background-size: 40%;
+}
+#footer
+{
+    clear: left;
+    background:#e3bae4;
+    width:auto;
+    text-align: left;   
+    
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 1.5em;
+    color: #000;
+    opacity:0.9;
+}
+
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    background-color:white;
+    transition: 0.5s;
+}
+
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li{
+    display: inline;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity:0.7;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: #fff;
+}
+
+.inventoraTeam{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
